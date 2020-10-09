@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+    char arr[26];
+    int i;
+    for(i=0;i<26;i++)
+        arr[i]='A'+i;
+    //输出
+    for(i=0;i<26;i++)
+        printf("%c  ",arr[i]);
+
+        getchar();
+}
